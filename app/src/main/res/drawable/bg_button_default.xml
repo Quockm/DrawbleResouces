@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <size android:width="500dp"
+        android:height="1000dp"/>
+
+    <solid android:color="@color/colorPrimary"/> mausac
+    <corners android:radius="10dp"/> //bo goc
+    <gradient
+        android:angle="270"
+        android:startColor="#4427A0"
+        android:endColor="#1C87E4"/> // pha mau
+    <stroke
+        android:color="@color/colorAccent"
+        android:width="0.5dp"/> //vien
+</shape>
